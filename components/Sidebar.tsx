@@ -1,5 +1,6 @@
 import React from 'react'
 import{BsHouseFill,BsBellFill} from "react-icons/bs"
+import {FaUser} from "react-icons/fa"
 
 const Sidebar = () => {
 
@@ -16,10 +17,15 @@ const Sidebar = () => {
             label:"Notifications",
             href:"/notifications",
             icon:BsBellFill
+        },
+        {
+            label:"Users",
+            href:"/users/123",
+            icon:FaUser
         }
     ]
   return (
-    <div>
+    <div className='col-span-1 h-full pr-4 md:pr-6'>
       
     </div>
   )
